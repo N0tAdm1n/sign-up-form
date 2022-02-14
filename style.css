@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.banner {
+    width: 40%;
+    background-image: url(https://images.unsplash.com/photo-1644681950291-047f2e7410d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80);
+    background-size: cover;
+}
+
+.form-side {
+    width: 60%;
+}
