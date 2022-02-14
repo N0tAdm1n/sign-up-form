@@ -8,26 +8,44 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="banner"></div>
+    <div class="banner">
+        N0tAdm1n
+    </div>
+    
     <div class="form-side">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-        <p>Sign Up now to get started.</p>
-        <p>you know you want to</p>
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+      </p>
+      <p>Sign Up now to get started.</p>
+      <p>you know you want to</p>
       <form action="">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="fname" />
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lname" />
-        <label for="email"></label>
-        <input type="email" id="email" name="email" />
-        <label for="pno">Phone Number</label>
-        <input type="tel" id="pno" name="pno" />
-        <label for="pwd">Password</label>
-        <input type="password" id="pwd" name="pwd" />
-        <label for="cpwd">Comfirm Password</label>
-        <input type="password" id="cpwd" name="cpwd" />
+        <div class="input-container">
+          <p>Lets do this</p>
+          <div class="row">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" />
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" />
+          </div>
+
+          <div class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="pno">Phone Number</label>
+            <input type="tel" id="pno" name="pno" />
+          </div>
+
+          <div class="row">
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" />
+            <label for="cpwd">Comfirm Password</label>
+            <input type="password" id="cpwd" name="cpwd" />
+          </div>
+        </div>
         <button type="submit">Create Account</button>
       </form>
+      <p>Already have an account?<a href="">Log in</a></p>
     </div>
   </body>
 </html>
