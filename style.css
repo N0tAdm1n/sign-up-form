@@ -15,7 +15,15 @@ body {
 
 label {
     display: block;
+    font-size: 0.6rem;
+}
+
+input {
     font-size: 0.7rem;
+}
+
+p {
+    max-width: 75ch;
 }
 
 .banner {
@@ -38,4 +46,9 @@ label {
 .row {
     display: flex;
     flex-flow: row wrap;
+}
+
+.field {
+    padding-right: 150px;
+    margin: 15px;
 }
