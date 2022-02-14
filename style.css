@@ -33,7 +33,11 @@ input {
 }
 
 input:focus {
-    box-shadow: 0 0 5px 1px rgba(114, 175, 255, 0.808);
+    box-shadow: 0 0 5px 1px skyblue;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 2px rgb(255, 57, 8);
 }
 
 p {
@@ -48,9 +52,10 @@ button {
     padding: 20px 40px;
     font-size: 0.7rem;
     font-family: 'PT Sans Caption', sans-serif;
-    background-color: rgb(250, 188, 17);
+    background-color: rgb(243, 210, 44);
     border: 2px solid transparent;
     border-radius: 15px;
+    box-shadow: 0 0 5px 3px black;
 }
 .banner {
     width: min(650px, 40%);
@@ -79,8 +84,7 @@ button {
     justify-content: center;
     align-items: flex-start;
     flex-flow: column nowrap;
-    /* padding-left: 50px; */
-    background-color: rgb(181, 234, 255);
+    background-color: rgba(26, 212, 245, 0.562);
 }
 
 .text-out-of-input {
@@ -93,8 +97,10 @@ button {
 
 .input-container {
     width: 100%;
-    background-color: white;
+    background-color: rgb(243, 210, 44);
     padding: 10px 0 10px 50px;
+    box-shadow: 0 2px 10px 1px black,
+                0 -1px 10px 1px black;
 }
 
 .row {
@@ -103,11 +109,15 @@ button {
 }
 
 .field {
-    padding-right: 150px;
     margin: 15px;
     margin-left: 0;
 }
 
+.field:nth-child(odd) {
+    margin-right: 150px;
+}
+
 .log-in {
     margin-left: 50px;
+    font-size: 0.7rem;
 }
